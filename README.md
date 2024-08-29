@@ -4,7 +4,6 @@ Este proyecto es una réplica visual de la página principal de YouTube. Está d
 
 ## Características
 
-- **Diseño Visual**: Réplica del diseño de la página principal de YouTube, incluyendo la barra de navegación, el área de contenido principal y las secciones de recomendación.
 - **Estructura Responsiva**: La página está diseñada para adaptarse a diferentes dispositivos y resoluciones de pantalla, ofreciendo una experiencia de usuario consistente en móviles, tabletas y escritorios.
 - **Maquetación en CSS**: Utiliza técnicas modernas de CSS para lograr una maquetación precisa y atractiva, imitando el estilo y la funcionalidad de YouTube.
 
