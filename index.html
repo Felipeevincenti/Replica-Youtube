@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./media/icono.png">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- ----- HEADER ------------------------------------------------------------- -->
+
+    <header id="header">
+
+        <!-- ----- HEADER-IZQ ------------------------------------------------------------- -->
+        <div class="header__izq">
+            <div class="menu-container">
+                <img class="menu" src="./media/menu.svg" alt="">
+            </div>
+            <div class="logo-container">
+                <img class="logo" src="./media/logo.svg" alt="">
+            </div>
+        </div>
+
+        <!-- ----- HEADER-CENTRO ------------------------------------------------------------- -->
+        <div class="header__centro">
+            <div class="buscar-container">
+                <div class="input-container">
+                    <input class="input" type="text" placeholder="Buscar">
+                </div>
+                <button class="lupa-container"><img src="./media/lupa.svg" alt="" class="lupa"></button>
+            </div>
+            <button class="microfono-container"><img src="./media/microfono.svg" alt="" class="microfono"></button>
+        </div>
+
+        <!-- ----- HEADER-DER ------------------------------------------------------------- -->
+        <div class="header__der">
+            <button class="camara-container"><img src="./media/camara.svg" alt="" class="camara"></button>
+            <button class="campana-container"><img src="./media/campana.svg" alt="" class="campana"></button>
+            <button class="usuario-container"><img src="./media/usuario.jpg" alt="" class="usuario"></button>
+        </div>
+
+    </header>
+
+
+
+    <!-- ----- CONTENEDOR GENERAL ------------------------------------------------------------- -->
+
+    <div class="general-container">
+
+        <!-- ----- ASIDE ------------------------------------------------------------- -->
+
+        <aside id="aside">
+
+            <!-- ----- ASIDE-ARRIBA ------------------------------------------------------------- -->
+            <div class="aside__arriba">
+                <ul class="lista">
+                    <li class="item">
+                        <img class="icono" src="./media/inicio.svg" alt="">
+                        <p class="texto">Inicio</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/shorts.svg" alt="">
+                        <p class="texto">Shorts</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/suscripciones.svg" alt="">
+                        <p class="texto">Suscripciones</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/youtube-music.svg" alt="">
+                        <p class="texto">YouTube Music</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ----- ASIDE-CENTRO ------------------------------------------------------------- -->
+            <div class="aside__centro">
+                <ul class="lista">
+                    <li class="item">
+                        <p class="texto">Tú</p>
+                        <img class="icono" src="./media/flecha-derecha.svg" alt="">
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/canal.svg" alt="">
+                        <p class="texto">Tu canal</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/historial.svg" alt="">
+                        <p class="texto">Historial</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/listas-de-reproduccion.svg" alt="">
+                        <p class="texto">Listas de reproduc...</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/videos.svg" alt="">
+                        <p class="texto">Mis videos</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/peliculas.svg" alt="">
+                        <p class="texto">Mis películas</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/ver-mas-tarde.svg" alt="">
+                        <p class="texto">Ver más tarde</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/me-gustan.svg" alt="">
+                        <p class="texto">Videos que me gus...</p>
+                    </li>
+                    <li class="item">
+                        <img class="icono" src="./media/descargas.svg" alt="">
+                        <p class="texto">Descargas</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ----- ASIDE-ABAJO ------------------------------------------------------------- -->
+            <div class="aside__abajo">
+                <p class="titulo">Suscripciones</p>
+                <ul class="lista">
+                    <li class="item">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/rubius.jpg" alt="">
+                        </div>
+                        <p class="nombre">elrubiusOMG</p>
+                    </li>
+                    <li class="item">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/ibai.jpg" alt="">
+                        </div>
+                        <p class="nombre">Ibai</p>
+                    </li>
+                    <li class="item">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/unicornio.jpg" alt="">
+                        </div>
+                        <p class="nombre">Unicornio</p>
+                    </li>
+                    <li class="item">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/robleis.jpg" alt="">
+                        </div>
+                        <p class="nombre">Robleis</p>
+                    </li>
+                    <li class="item">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/grefg.jpg" alt="">
+                        </div>
+                        <p class="nombre">TheGrefg</p>
+                    </li>
+                    <li class="item">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/willyrex.jpg" alt="">
+                        </div>
+                        <p class="nombre">Willyrex</p>
+                    </li>
+                    <li class="item">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/vegetta.jpg" alt="">
+                        </div>
+                        <p class="nombre">VEGETTA777</p>
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
+
+
+
+        <!-- ----- ASIDE-MOBILE ------------------------------------------------------------- -->
+
+        <aside id="aside-mobile">
+
+            <ul class="lista">
+                <li class="item">
+                    <img class="icono" src="./media/inicio.svg" alt="">
+                    <p class="texto">Inicio</p>
+                </li>
+                <li class="item">
+                    <img class="icono" src="./media/shorts.svg" alt="">
+                    <p class="texto">Shorts</p>
+                </li>
+                <li class="item">
+                    <img class="icono" src="./media/suscripciones.svg" alt="">
+                    <p class="texto">Suscripciones</p>
+                </li>
+                <li class="item">
+                    <img class="icono" src="./media/youtube-music.svg" alt="">
+                    <p class="texto">YouTube Mu...</p>
+                </li>
+                <li class="item">
+                    <img class="icono" src="./media/tu.svg" alt="">
+                    <p class="texto">Tú</p>
+                </li>
+                <li class="item">
+                    <img class="icono" src="./media/descargas.svg" alt="">
+                    <p class="texto">Descargas</p>
+                </li>
+            </ul>
+        </aside>
+
+
+
+
+
+        <!-- ----- MAIN ------------------------------------------------------------- -->
+
+        <main id="main">
+
+            <!-- ----- FILTROS ------------------------------------------------------------- -->
+            <div class="filtros">
+
+                <p class="filtro">Todo</p>
+                <p class="filtro">Subidas recientes</p>
+                <p class="filtro">Música</p>
+                <p class="filtro">Videojuegos</p>
+                <p class="filtro">En directo</p>
+                <p class="filtro">Mixes</p>
+                <p class="filtro">Visto</p>
+                <p class="filtro">Novedades</p>
+                <p class="filtro">Tutoriales</p>
+                <p class="filtro">Programacion</p>
+                <p class="filtro">Humor</p>
+                <p class="filtro">Entrevistas</p>
+                <p class="filtro">Documentales</p>
+                <p class="filtro">Viajes</p>
+                <p class="filtro">Recetas</p>
+                <p class="filtro">Blogs</p>
+                <p class="filtro">Conciertos</p>
+                <p class="filtro">Covers</p>
+                <p class="filtro">Novedad para ti</p>
+                
+                <div class="degradado-izq"></div>
+                <div class="degradado-der">
+                    <div class="flecha-container">
+                        <img class="flecha" src="./media/flecha-derecha.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ----- VIDEOS ------------------------------------------------------------- -->
+            <div class="videos">
+
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-rubius.jpg" alt="">
+                        <span class="duracion">21:00</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/rubius.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">Pasé 24 Horas en Realidad Virtual (Apple Vision Pro)</h3>
+                            <p class="usuario">elrubiusOMG</p>
+                            <div class="data-container">
+                                <p class="data">6,5 M de visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 3 meses
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-grefg.jpg" alt="">
+                        <span class="duracion">16:24</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/grefg.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">FORTNITE NO TIENE SENTIDO.</h3>
+                            <p class="usuario">TheGrefg</p>
+                            <div class="data-container">
+                                <p class="data">603 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 3 días
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-robleis.jpg" alt="">
+                        <span class="duracion">49:54</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/robleis.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">CREANDO MI PROPIO GIMNASIO 💪</h3>
+                            <p class="usuario">RobleisIUTU</p>
+                            <div class="data-container">
+                                <p class="data">999 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 2 semanas
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-olga.jpg" alt="">
+                        <span class="duracion">36:52</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/olga.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">MESSI en OLGA con MIGUE GRANADOS: la NOTA COMPLETA en MIAMI</h3>
+                            <p class="usuario">OLGA</p>
+                            <div class="data-container">
+                                <p class="data">10 M de visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 8 meses
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-mortedor.jpg" alt="">
+                        <span class="duracion">8:48</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/mortedor.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">es dj el loco 🎧</h3>
+                            <p class="usuario">Mortedor</p>
+                            <div class="data-container">
+                                <p class="data">64 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 1 mes
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-midudev.jpg" alt="">
+                        <span class="duracion">3:01</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/midudev.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">¡Necesitas cambiar estas configuraciones de Visual Studio Code!</h3>
+                            <p class="usuario">midudev</p>
+                            <div class="data-container">
+                                <p class="data">334 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 1 año
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-ibai.jpg" alt="">
+                        <span class="duracion">30:58</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/ibai.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">EL RESTAURANTE MÁS ÚNICO AL QUE HE IDO NUNCA</h3>
+                            <p class="usuario">Ibai</p>
+                            <div class="data-container">
+                                <p class="data">2,1 M de visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 2 días
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-wos.jpg" alt="">
+                        <span class="duracion">4:06</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/wos.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">WOS - MORFEO (Video Oficial)</h3>
+                            <p class="usuario">WOS DS3</p>
+                            <div class="data-container">
+                                <p class="data">9,2 M de visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 7 meses
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-vegetta.jpg" alt="">
+                        <span class="duracion">11:27</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/vegetta.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">SQUID GAMES en LUCKY BLOCKS</h3>
+                            <p class="usuario">VEGETTA777</p>
+                            <div class="data-container">
+                                <p class="data">242 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 3 días
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-unicornio.jpg" alt="">
+                        <span class="duracion">16:50</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/unicornio.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">HICE SPARRING CONTRA 9 PERSONAS</h3>
+                            <p class="usuario">Unicornio</p>
+                            <div class="data-container">
+                                <p class="data">186 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 1 mes
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-coscu.jpg" alt="">
+                        <span class="duracion">13:49</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/coscu.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">COSCU REACCIONA A TIK TOKS</h3>
+                            <p class="usuario">Coscu</p>
+                            <div class="data-container">
+                                <p class="data">164 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 2 días
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-boffe.jpg" alt="">
+                        <span class="duracion">8:19</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/boffe.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">Probé la Hamburguesa del RUBIUS y encontré algo MUY RARO</h3>
+                            <p class="usuario">Boffe GP</p>
+                            <div class="data-container">
+                                <p class="data">50 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 2 meses
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-willyrex.jpg" alt="">
+                        <span class="duracion">13:13</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/willyrex.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">Lucky Blocks en FALLOUT | Vegetta, Fargan y Willyrex</h3>
+                            <p class="usuario">Willyrex</p>
+                            <div class="data-container">
+                                <p class="data">169 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 6 días
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-rubiusz.jpg" alt="">
+                        <span class="duracion">21:29</span>
+
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/rubiusz.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">NO ESTOY PREPARADO PARA ESTO | Horizon #8</h3>
+                            <p class="usuario">Rubius Z</p>
+                            <div class="data-container">
+                                <p class="data">1 M de visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 1 día
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="minuatura-container">
+                        <img class="miniatura" src="./media/miniatura-auron.jpg" alt="">
+                        <span class="duracion">57:08</span>
+                    </div>
+                    <div class="info-container">
+                        <div class="portada-container">
+                            <img class="portada" src="./media/auron.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="titulo">esto es PermadeaZ</h3>
+                            <p class="usuario">Auron</p>
+                            <div class="data-container">
+                                <p class="data">249 K visualizaciones
+                                <div class="punto-container">
+                                    <img class="punto" src="./media/punto.png" alt="">
+                                </div> hace 19 horas
+                                </p>
+                            </div>
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ----- SHORTS ------------------------------------------------------------- -->
+            <div class="shorts-container">
+
+                <div class="cabecera">
+                    <div class="cabecera-izq">
+                        <img class="icono" src="./media/shorts-color.svg" alt="">
+                        <h2 class="titulo">Shorts</h2>
+                    </div>
+                    <div class="cabecera-der">
+                        <img class="cerrar" src="./media/cruz.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="shorts">
+
+                    <div class="short">
+
+                        <div class="miniatura-container">
+                            <img class="miniatura" src="./media/miniatura-short-wasted.jpg" alt="">
+                        </div>
+
+                        <div class="info-container">
+
+                            <h3 class="titulo">Lunes 3/6 18:33, CAPÍTULO 4</h3>
+
+                            <p class="vistas">27 K vistas</p>
+
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+
+                        </div>
+
+                    </div>
+                    <div class="short">
+
+                        <div class="miniatura-container">
+                            <img class="miniatura" src="./media/miniatura-short-goncho.jpg" alt="">
+                        </div>
+
+                        <div class="info-container">
+
+                            <h3 class="titulo">PLANTAR FRUTILLAS ES FÁCIL</h3>
+
+                            <p class="vistas">269 K vistas</p>
+
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+
+                        </div>
+
+                    </div>
+                    <div class="short">
+
+                        <div class="miniatura-container">
+                            <img class="miniatura" src="./media/miniatura-short-olga.jpg" alt="">
+                        </div>
+
+                        <div class="info-container">
+
+                            <h3 class="titulo">Dillom confiesa en Olga su mayor miedo</h3>
+
+                            <p class="vistas">172 K vistas</p>
+
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+
+                        </div>
+
+                    </div>
+                    <div class="short">
+
+                        <div class="miniatura-container">
+                            <img class="miniatura" src="./media/miniatura-short-ibai.jpg" alt="">
+                        </div>
+
+                        <div class="info-container">
+
+                            <h3 class="titulo">El 13 de Junio sabremos el INVITADO ESPECIAL</h3>
+
+                            <p class="vistas">25 K vistas</p>
+
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div class="short">
+
+                        <div class="miniatura-container">
+                            <img class="miniatura" src="./media/miniatura-short-unicornio.jpg" alt="">
+                        </div>
+
+                        <div class="info-container">
+
+                            <h3 class="titulo">no es justo</h3>
+
+                            <p class="vistas">30 K vistas</p>
+
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+
+                        </div>
+
+                    </div>
+                    <div class="short">
+
+                        <div class="miniatura-container">
+                            <img class="miniatura" src="./media/miniatura-short-mariana.jpg" alt="">
+                        </div>
+
+                        <div class="info-container">
+
+                            <h3 class="titulo">NO SABIA RICO 🤮</h3>
+
+                            <p class="vistas">307 K vistas</p>
+
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+
+                        </div>
+
+                    </div>
+                    <div class="short">
+
+                        <div class="miniatura-container">
+                            <img class="miniatura" src="./media/miniatura-short-coscu.jpg" alt="">
+                        </div>
+
+                        <div class="info-container">
+
+                            <h3 class="titulo">ESTOY INDIGNADO</h3>
+
+                            <p class="vistas">36 K vistas</p>
+
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+
+                        </div>
+
+                    </div>
+                    <div class="short">
+
+                        <div class="miniatura-container">
+                            <img class="miniatura" src="./media/miniatura-short.jpg" alt="">
+                        </div>
+
+                        <div class="info-container">
+
+                            <h3 class="titulo">Titulo del Short</h3>
+
+                            <p class="vistas">121 K vistas</p>
+
+                            <img class="opciones" src="./media/opciones.svg" alt="">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mostrar-container">
+                    <button class="mostrar">
+                        <p class="texto">Mostrar más</p>
+                        <img class="flecha" src="./media/flecha-derecha.svg" alt="">
+                    </button>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
